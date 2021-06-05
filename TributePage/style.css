@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50vw;
+    width: 40vw;
     border: solid 1px #eee;
 }
 
@@ -35,8 +35,12 @@ body {
     text-align: justify;
 }
 
+.timeline {
+    width: 100%;
+    text-align: center;
+}
 .timeline:hover {
-    background-color: #7F7566;
+    background-color: #7f75669b;
 }
 
 .date,
